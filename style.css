@@ -1,0 +1,29 @@
+/* Custom CSS */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #007bff;
+    color: white;
+}
+
+.hero {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    color: #333;
+    text-shadow: 1px 1px 5px rgba(255, 255, 255, 0.7);
+}
+
+.services img {
+    filter: grayscale(50%);
+}
+
+.services img:hover {
+    filter: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.contact {
+    background: #0056b3;
+}
